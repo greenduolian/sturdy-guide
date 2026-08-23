@@ -3,6 +3,10 @@ find_package(
   OpenCV 4
   REQUIRED
   COMPONENTS core highgui imgcodecs imgproc videoio
+   PATHS
+    /usr/lib/x86_64-linux-gnu/cmake/opencv4
+    /usr/local/lib/cmake/opencv4
+  NO_DEFAULT_PATH
 )
 find_package(Threads REQUIRED)
 
